@@ -1,0 +1,21 @@
+{
+  "name": "node-bamtools",
+  "version": "1.0.0",
+  "description": "bamtools is a utility for bam files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bamtools": "bamtools-2.5.1/build/src/toolkit/bamtools"
+  },
+  "scripts": {
+    "preinstall": "build.sh"
+  },
+  "author": "Chase Miller",
+  "license": "ISC",
+  "devDependencies": {
+    "cmake-js": "^3.6.1"
+  },
+  "dependencies": {}
+}
