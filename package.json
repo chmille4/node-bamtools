@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Chase Miller",
   "license": "ISC",
+  "scripts": {
+    "postinstall": "./build.sh"
+  },
   "dependencies": {
     "cmake-js": "^3.6.1"
   }
