@@ -10,7 +10,7 @@
     "bamtools": "bamtools-2.5.1/build/src/toolkit/bamtools"
   },
   "scripts": {
-    "preinstall": "build.sh"
+    "preinstall": "./build.sh"
   },
   "author": "Chase Miller",
   "license": "ISC",
