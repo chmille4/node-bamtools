@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "bamtools is a utility for bam files",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "./build.sh"
-  },
   "author": "Chase Miller",
   "license": "ISC",
   "devDependencies": {
