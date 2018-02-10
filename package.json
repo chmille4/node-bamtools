@@ -6,9 +6,6 @@
   "scripts": {
     "install": "./build.sh"
   },
-  "bin": {
-    "bamtools": "bamtools-2.5.1/build/src/toolkit/bamtools"
-  },
   "author": "Chase Miller",
   "license": "ISC",
   "devDependencies": {
