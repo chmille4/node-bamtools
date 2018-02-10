@@ -4,13 +4,10 @@
   "description": "bamtools is a utility for bam files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "./build.sh"
   },
   "bin": {
     "bamtools": "bamtools-2.5.1/build/src/toolkit/bamtools"
-  },
-  "scripts": {
-    "postinstall": "./build.sh"
   },
   "author": "Chase Miller",
   "license": "ISC",
