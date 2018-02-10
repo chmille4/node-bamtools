@@ -5,8 +5,7 @@
   "main": "index.js",
   "author": "Chase Miller",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "cmake-js": "^3.6.1"
-  },
-  "dependencies": {}
+  }
 }
