@@ -5,8 +5,11 @@
   "main": "index.js",
   "author": "Chase Miller",
   "license": "ISC",
+  "bin" : {
+    "bamtools": "bamtools/bamtools"
+  },
   "scripts": {
-    "postinstall": "./build.sh"
+    "postinstall": "cd bamtools; cmake-js configure; cd build; make -j"
   },
   "dependencies": {
     "cmake-js": "^3.6.1"
