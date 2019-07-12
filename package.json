@@ -12,6 +12,6 @@
     "postinstall": "cd bamtools; cmake-js configure; cd build; make -j"
   },
   "dependencies": {
-    "cmake-js": "^3.6.1"
+    "cmake-js": "^5.3.0"
   }
 }
